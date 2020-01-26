@@ -52,7 +52,7 @@ h1 {
     top: 0;
     width: 100%;
     height: 80px;
-    background: #5c5a54;
+    background: rgb(53, 50, 48);
     vertical-align: middle;
 }
 
@@ -161,16 +161,6 @@ h1 {
     width: 64%;
 }
 
-#rangeme {
-    color: #006FCF;
-    text-decoration: none;
-}
-
-#rangeme:hover {
-    text-decoration: underline;
-    text-decoration-color: #006FCF;
-}
-
 #interact {
     color: #3a3836;
     text-decoration: none;
@@ -180,17 +170,6 @@ h1 {
     text-decoration: underline;
     text-decoration-color: #3a3836;
 }
-
-#columbia {
-    color: #9BDFFF;
-    text-decoration: none;
-}
-
-#columbia:hover {
-    text-decoration: underline;
-    text-decoration-color: #9BDFFF;
-}
-
 div#header-and-platform1 {
     padding-bottom: 48px !important;
 }
