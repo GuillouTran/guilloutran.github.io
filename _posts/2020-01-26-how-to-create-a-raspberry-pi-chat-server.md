@@ -1,13 +1,11 @@
 ---
 title: How to create a Raspberry Pi Chat Server
-date: 2020-01-26 00:00:00 Z
+date: '2020-01-26 00:00:00 +0000'
 categories:
-- RPI
-- Raspberry Pi
+- ''
+- ''
 - tutorial
-- how-to
-tags:
-- Raspberry Pi
+- ''
 layout: blog
 ---
 
