@@ -1,0 +1,36 @@
+---
+title: Will Guillou
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+    permalink: "/:collection/:title/"
+  uploads:
+    title: Uploads
+    output: true
+  work:
+    title: Work
+    output: true
+    permalink: "/:collection/:title/"
+email: will@guilloutran.codes
+description: I am a student at The Village School. Manager and Writer at guilloutran.codes.
+  I enjoy coding and reading in my free time!.
+baseurl: ''
+url: https://guilloutran.codes
+twitter_username: guilloutran
+github_username: guilloutran
+via_info: in Houston
+future: false
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-126541016-6      # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-analytics

@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<!-- save -->
+<div id="project-box">
+  <h2 id="project-header"> Posts </h2>
+
+<ul id="breakdown-list">
+  {% for post in site.posts %}
+  <li id="list-bullet"> <a href="{{post.url}}">{{post.title}} </a> </li>
+  {% endfor %}
+</ul>
+
+<!-- save -->
+
+<!-- not in use -->
+
+<!-- <ul id="blog-list-bullet">
+  {% for post in site.posts %}
+    <li id="blog-bullet">
+      <div id="blog-post"> 
+        <div id="blog-img-box"><img id="blog-article-image" src="{{site.url}}{{post.image_slug}}"></img></div>
+        <div class="blog-flex-container">
+          <div><h1 id="blog-post-title">{{post.title}}</h1></div>
+          <div><h2 id="blog-post-excerpt">Published on {{ post.date | date: "%-B %d, %Y"}}</h2></div>
+        </div> 
+      </div>
+    </li>
+  {% endfor %}
+</ul> -->
+
+
+
+</div>

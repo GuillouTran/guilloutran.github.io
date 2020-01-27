@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+{% include header.html %}
+
+<body>
+
+<div id="page-container">
+<div id="content-wrap">
+
+{% include navbar.html %}
+
+<div id="intro-section"> 
+    <div id="img-box"><img src="{{ site.url }}/img/transitlogos/we.svg" alt="essilfie.com logo"></div>
+    <div class="flex-container">
+      <div id="name-container"><h1 id="name-header">{{site.title}}</h1></div>
+      <div id="platform-container"><h2 id="platform-name">Platform</h2></div>  
+      <div><h2 id="via-city">{{site.via_info}}</h2></div>
+      <div id="number-container"><h2 id="platform-number">1</h2></div> 
+  </div> 
+</div>
+
+{% include sectionbreak.html %}
+
+{{ content }}
+
+{% include contactme.html %}
+
+{% include footer.html %}
+
+</div>
+</div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+{% include header.html %}
+
+<body>
+
+<div id="page-container">
+<div id="content-wrap">
+
+{% include navbar.html %}
+
+<div id="post-box">
+  <h1 id="post-title"> {{page.title}} </h1>
+  {{content}}
+
+  <a href={{page.external_link}} target="__blank" class="button">Learn more about {{page.title}} &#8594;</a> 
+</div>
+
+{% include contactme.html %}
+
+{% include footer.html %}
+
+</div>
+</div>
+
+</body>
+
+
+</html>

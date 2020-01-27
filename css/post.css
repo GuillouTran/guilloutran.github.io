@@ -1,0 +1,169 @@
+#post-box {
+    padding-left: 32px;
+    font-size: 24px;
+    width: 96%;
+}
+
+h1#post-title  {
+    font-size: 56px;
+}
+
+#post-image {
+    max-width: 40%;
+    margin: 8px;
+    display: block;
+}
+
+.button {
+    background-color: #FF6900;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+.blog-banner-image {
+  width: 100%;
+}
+
+.blog-info {
+  text-align: center;
+  margin: 24px;
+}
+
+.blog-info h1, h3 {
+  margin:0px;
+
+}
+.blog-box {
+  padding-left: 128px;
+  padding-right: 128px;
+  font-size: 24px;
+}
+
+/* #blog-post {
+  display: flex;
+}
+
+#blog-img-box {
+  height: 200px;
+  width: 500px;
+  margin: 16px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+#blog-post-title {
+  font-size: 32px;
+}
+
+#blog-post-excerpt {
+  font-size: 24px;
+}
+#blog-bullet {
+  -webkit-column-break-inside:avoid;
+  -moz-column-break-inside:avoid;
+       column-break-inside:avoid;
+}
+#blog-list-bullet {
+  list-style-type: none;
+  padding: 0;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+#blog-article-image {
+  object-fit: scale-down;
+  width: 100%;
+  height: 50%;
+}
+#blog-flex-container {
+  font-size: 16px;
+}
+
+.blog-flex-container {
+  display: block;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.blogflex-container > div {
+  width: 50%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  height: 32px;
+} */
+
+/* Mobile phone sizes */
+@media screen and (max-width: 480px) 
+  and (orientation: portrait) { 
+
+      h1#post-title, h1.blog-title  {
+        font-size: 32px;
+    }
+
+    h3.published-date {
+      font-size: 16px;;
+    }
+
+    #post-image {
+        max-width: 88%;
+        margin: 8px;
+        display: block;
+    }
+
+    #post-box, .blog-box {
+        padding-left: 32px;
+        font-size: 16px;
+        width: 96%;
+        padding-right: 32px;
+    }
+
+}
+
+/* Tablet sizes */
+/* @media screen 
+and (min-device-width: 760px) 
+and (max-width: 768px) 
+  and (orientation: portrait) { 
+   
+
+
+} */
+
+@media screen and (max-height: 480px) 
+  and (orientation: landscape)  { 
+
+    #post-image {
+        max-width: 56%;
+        margin: 8px;
+        display: block;
+    }
+  } 
+
+  @media (prefers-color-scheme: dark) {
+    h1#post-title, h1.blog-title {
+        color: white;
+    }
+    a {
+      color: white;
+      text-decoration-color: #FF6900;
+    }
+
+  }
+
+  @media (prefers-color-scheme: light) {
+    a {
+      color: black;
+      text-decoration-color: #FF6900;
+    }
+
+  }

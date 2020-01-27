@@ -1,0 +1,73 @@
+#list-bullet {
+    text-decoration-color: black;
+}
+
+#breakdown-list {
+    list-style-type: none;
+}
+
+#breakdown-list a {
+    /* text-decoration-color: #FF6900; */
+    text-decoration-line: none;
+    color: black;
+}
+
+#breakdown-list a:hover {
+    text-decoration-color: #FF6900;
+    text-decoration-line: underline;
+    color: black;
+}
+
+#project-box {
+    padding-left: 32px;
+    font-size: 40px;
+    width: 80%;
+}
+
+h2#project-header {
+    font-size: 40px !important;
+}
+h2#project-header, ul#breakdown-list {
+    margin: 16px;
+    font-size: 32px;
+}
+
+ul li#list-bullet {
+    list-style-type: disc;
+}
+
+/* Mobile phone sizes */
+@media screen and (max-width: 480px) 
+  and (orientation: portrait) { 
+
+    /* ul li#list-bullet {
+        list-style-type: disc !important;
+    } */
+
+      #project-header {
+          font-size:32px !important;
+    
+    }
+    #list-bullet {
+        font-size: 24px !important;
+    }
+
+    #breakdown-list a {
+        text-decoration: underline;
+        text-decoration-color: #FF6900;
+        font-size: 24px;
+    }
+
+
+}
+
+
+/* Tablet sizes */
+@media screen 
+and (min-device-width: 760px) 
+and (max-width: 768px) 
+  and (orientation: portrait) { 
+   
+
+
+}
