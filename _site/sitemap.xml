@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://guilloutran.com/tutorial/2020/01/26/how-to-create-a-raspberry-pi-chat-server.html</loc>
+<lastmod>2020-01-26T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://guilloutran.com/blog/hello/2020/01/26/hello-world!.html</loc>
+<lastmod>2020-01-26T05:40:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://guilloutran.com/projects/chat/</loc>
+<lastmod>2020-01-26T03:45:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://guilloutran.com/</loc>
+</url>
+<url>
+<loc>https://guilloutran.com/posts.html</loc>
+</url>
+<url>
+<loc>https://guilloutran.com/projects.html</loc>
+</url>
+<url>
+<loc>https://guilloutran.com/work.html</loc>
+</url>
+</urlset>
